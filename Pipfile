@@ -1,0 +1,34 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+websocket-client = "*"
+requests = "*"
+tls-client = "*"
+pypasser = "*"
+names = "*"
+colorama = "*"
+curl-cffi = "*"
+streamlit = "*"
+selenium = "*"
+fake-useragent = "*"
+twocaptcha = "*"
+streamlit-chat = {file = "https://github.com/AI-Yash/st-chat/archive/refs/pull/24/head.zip"}
+pydantic = "*"
+pymailtm = "*"
+levenshtein = "*"
+retrying = "*"
+mailgw-temporary-email = "*"
+pycryptodome = "*"
+random-password-generator = "*"
+numpy = ">=1.22.2"
+tornado = ">=6.3.2"
+pyexecjs = "*"
+browser-cookie3 = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
