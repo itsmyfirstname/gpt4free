@@ -1,14 +1,18 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+.vscode/
+
 # Editor-based HTTP Client requests
 /httpRequests/
+
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
 
 # Ignore local python virtual environment
 venv/
+.venv/
 
 # Ignore streamlit_chat_app.py conversations pickle
 conversations.pkl
@@ -30,3 +34,6 @@ cookie.json
 *.pyc
 
 dist/
+
+# Virtual Env stuff
+*.lock
